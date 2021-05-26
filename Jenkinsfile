@@ -9,7 +9,7 @@ pipeline{
                 label 'node1'
             }
             steps{
-                sh "mvn clean build"
+                sh "mvn clean compile"
             }
         }
         stage('test'){
